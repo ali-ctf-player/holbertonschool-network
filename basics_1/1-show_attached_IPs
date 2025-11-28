@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #it is comment
 
-hostname -I | tr ' ' '\n' | grep -v '^$'
+ifconfig | grep 'inet' | awk '{print $2}'
