@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #it is comment
 
-hostname -I | tr ' ' '\n' 
+hostname -I | tr ' ' '\n' | grep -v '^$'
