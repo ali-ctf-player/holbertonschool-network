@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#It is comment
+ping -c 5 $1
