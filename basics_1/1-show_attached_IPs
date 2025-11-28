@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #it is comment
 
-cat /etc/hosts
+hostname -I | tr ' ' '\n' 
