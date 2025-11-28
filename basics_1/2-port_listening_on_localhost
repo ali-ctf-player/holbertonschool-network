@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#it is comment
+
+nc -lp 89 
